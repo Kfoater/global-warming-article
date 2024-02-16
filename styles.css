@@ -1,5 +1,8 @@
 html{
     font-family:sans-serif;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heading {
@@ -7,10 +10,26 @@ html{
 }
 
 .body {
-    font-family:cursive;
     text-indent:14px;
 }
 
-.list {
-    font-family:cursive;
+.image {
+    width: 50%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.captions {
+    color: gray;
+    text-align: center;
+}
+
+ul {
+    padding-top: 10px;
+}
+
+li {
+    padding-top: 8px;
 }
