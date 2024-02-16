@@ -5,12 +5,37 @@ html{
     margin-right: auto;
 }
 
+.topNav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topNav a {
+    float: left;
+    font-family: sans-serif;
+    color: lightgray;
+    text-align: center;
+    padding: 20px 20px 20px;
+    text-decoration: none;
+}
+
+.topNav a:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.topNav a.active {
+    color: lightgray;
+    background-color: green;
+}
+
 .heading {
     text-align:center;
 }
 
 .body {
     text-indent:14px;
+    font-size: large;
 }
 
 .image {
@@ -32,4 +57,8 @@ ul {
 
 li {
     padding-top: 8px;
+}
+
+.indentAll {
+    margin-left: 14px;
 }
